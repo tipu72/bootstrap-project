@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+  /* font-family: "Shadows Into Light", cursive; */
+}
+
+.title-section h3 {
+  font-weight: bolder;
+  margin-bottom: 0;
+}
+
+.hr-style {
+  border: 5px dotted white;
+  border-bottom: none;
+  width: 100px;
+}
+
+/* working with header */
+
+header {
+  background-image: url("images/banner.jpg");
+  background-color: rgba(7, 109, 189, 0.8);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar {
+  padding: 1% 10%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar-icon {
+  color: yellow;
+}
+
+.navbar-brand img {
+  width: 60px;
+  height: auto;
+}
+
+.nav-link {
+  color: yellow;
+  margin: 10px;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+
+.nav-link:hover {
+  background: aqua;
+  color: red;
+  transform: scale(1.2);
+}
+
+.banner-container {
+  height: 100vh;
+}
+
+.banner-container h1 {
+  font-size: 4rem;
+  background-color: rgba(7, 109, 189, 0.8);
+  padding: 10px 20px;
+  font-family: "Ma Shan Zheng", cursive;
+  border-radius: 10px;
+}
+
+/* working with main */
+
+/* working with fratures */
+#features {
+  padding: 5% 10%;
+  background-color: gainsboro;
+}
+
+.features-col {
+  border: 1px solid deeppink;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 20px;
+  transition: 0.4s;
+}
+
+.features-col:hover {
+  transform: scale(1.1);
+  box-shadow: 2px 6px 5px black;
+}
+
+.icon-style {
+  background-color: deeppink;
+  color: white;
+  padding: 15px;
+  margin: 5px 0;
+}
+
+/* working with about */
+
+#about {
+  padding: 4% 10%;
+  background-color: gray;
+}
+
+#about p {
+  font-size: 1rem;
+  font-weight: lighter;
+  margin-bottom: none;
+}
+
+#about a {
+  color: aqua;
+  text-decoration: underline;
+}
+
+.star i {
+  width: 20px;
+  text-align: center;
+}
+
+/* working with tutorils card */
+
+#tutorials {
+  padding: 5% 10%;
+  background-color: aquamarine;
+}
+
+.card {
+  padding: 15px;
+  margin: 10px;
+  border: 1px solid deeppink !important;
+  border-radius: 10px !important;
+  transition: 0.4s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 2px 6px 5px black;
+}
+
+/* working with feedback */
+
+#feedback {
+  padding: 5%;
+  background-color: teal;
+}
+
+.carousel-item {
+  text-align: center;
+  padding: 7% 15%;
+  font-style: italic;
+  font-size: 1.2rem;
+}
+
+.feedback-img {
+  width: 140px;
+  height: auto;
+  margin-bottom: 5px;
+}
+
+/* working with contact */
+
+#contact {
+  padding: 2% 10%;
+  background-color: darkolivegreen;
+}
+
+.form-group label {
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+/* working with footer */
+
+footer {
+  padding: 1% 10%;
+  background-color: gold;
+}
+
+footer a {
+  margin: 0 10px;
+  font-size: large;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: gray;
+}
+
+@media (max-width: 768px) {
+  .nav-link {
+    background-color: green;
+  }
+
+  .banner-container h1 {
+    font-size: 3rem;
+  }
+}

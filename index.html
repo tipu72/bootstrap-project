@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TiPuSuLtAn</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- working with bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- working with fontawesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- working with google font style -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Montserrat&family=Roboto:ital@1&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <!-- working with header -->
+        <header>
+            <nav class="navbar navbar-expand-md">
+                <div class="container-fluid">                 
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span> <i class="fas fa-bars navbar-icon"> </i></span>
+                    <!-- <span class="navbar-toggler-icon fas fa-bars navbar-icon"></span> -->
+                  </button>
+                  <a class="navbar-brand" href="#">
+                      <img src="images/book.jpg" alt="logo">
+                  </a>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active text-center text-md-left" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-center text-md-left" href="#about">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-center text-md-left" href="#features">Features</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-center text-md-left" href="#tutorials">Tutorials</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-center text-md-left" href="#feedback">Feedback</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-center text-md-left" href="#contact">Contact</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+              <section id="banner-section">
+                <div class="banner-container d-flex justify-content-center align-items-center">
+                    <div class="banner-contents text-center">
+                        <h1 class="font-weight-bolder mb-5 text-warning">Welcome to Battler Library</h1>
+                        <button class="btn btn-primary btn-lg mx-3" onclick="location.href='#tutorials'"> <i class="fas fa-play mr-2"></i> Tutorials</button>
+                        <button class="btn btn-primary btn-lg mx-3 request-callback" onclick="window.open('#')"> <i class="fab fa-youtube mr-2"></i> Subscribe</button>
+                    </div>
+                </div>
+              </section>
+        </header>
+        <!-- working with main -->
+        <main>
+            <!-- working with features -->
+            <section id="features">
+                <div class="title-section">
+                    <h3 class="text-center">Features</h3>
+                    <hr>
+					<!-- <hr class="hr-style" style="border-color: black;"> -->
+				</div>
+                <div class="row">
+                    <div class="col-lg-4 d-block d-lg-flex">
+                        <div class="features-col text-center">
+                            <i class="fas fa-hand-holding-usd fa-3x rounded-circle icon-style"></i>
+                            <h5 class="font-weight-bold">Free to use</h5>
+                            <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ducimus enim velit atque eos deleniti, molestiae quaerat facere inventore, amet reiciendis, dolorum perferendis magnam aut alias sit quibusdam! Amet, magnam.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 d-block d-lg-flex">
+                        <div class="features-col text-center">
+                            <i class="fas fa-hand-holding-usd fa-3x rounded-circle icon-style"></i>
+                            <h5 class="font-weight-bold">Free to use</h5>
+                            <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ducimus enim velit atque eos deleniti, molestiae quaerat facere inventore, amet reiciendis, dolorum perferendis magnam aut alias sit quibusdam! Amet, magnam.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 d-block d-lg-flex">
+                        <div class="features-col text-center">
+                            <i class="fas fa-hand-holding-usd fa-3x rounded-circle icon-style"></i>
+                            <h5 class="font-weight-bold">Free to use</h5>
+                            <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta ducimus enim velit atque eos deleniti, molestiae quaerat facere inventore, amet reiciendis, dolorum perferendis magnam aut alias sit quibusdam! Amet, magnam.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- working with about -->
+            <section id="about">
+                <div class="title-section">
+                    <h3 class="text-center">About</h3>
+                    <hr>
+					<!-- <hr class="hr-style" style="border-color: black;"> -->
+				</div>
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="basic-details text-center text-lg-left">
+                            <i class="far fa-user fa-2x icon-style rounded-circle"></i>
+                            <h5 class="font-weight-bolder">Personal Info</h5>
+                            <p>Name: Md. Tipu Sultan</p>
+                            <P>Adress: Naogaon, Rajshahi, Bangladesh</P>
+                            <p>Profession: Student</p>
+                            <p>Website: <a href="#">battler</a></p>
+                            <button class="btn btn-primary"><a href="#"></a>Visit Here</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-7"></div>
+                    <div class="col-lg-5">
+                        <div class="basic-details text-center text-lg-left">
+                            <i class="far fa-user fa-2x icon-style rounded-circle"></i>
+                            <h5 class="font-weight-bolder">Personal Info</h5>
+                            <p>Name: Md. Tipu Sultan</p>
+                            <P>Adress: Naogaon, Rajshahi, Bangladesh</P>
+                            <p>Profession: Student</p>
+                            <p>Website: <a href="#">battler</a></p>
+                            <button class="btn btn-primary"><a href="#"></a>Visit Here</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="basic-details text-center text-lg-left">
+                            <i class="far fa-user fa-2x icon-style rounded-circle"></i>
+                            <h5 class="font-weight-bolder">Personal Info</h5>
+                            <p>Name: Md. Tipu Sultan</p>
+                            <P>Adress: Naogaon, Rajshahi, Bangladesh</P>
+                            <p>Profession: Student</p>
+                            <p>Website: <a href="#">battler</a></p>
+                            <button class="btn btn-primary"><a href="#"></a>Visit Here</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-7"></div>
+                    <div class="col-lg-5">
+                        <div class="basic-details text-center text-lg-left">
+                            <i class="far fa-user fa-2x icon-style rounded-circle"></i>
+                            <h5 class="font-weight-bolder">Personal Info</h5>
+                            <p>Name: Md. Tipu Sultan</p>
+                            <P>Adress: Naogaon, Rajshahi, Bangladesh</P>
+                            <p>Profession: Student</p>
+                            <p>Website: <a href="#">battler</a></p>
+                            <button class="btn btn-primary"><a href="#"></a>Visit Here</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="skill-details text-center text-lg-left">
+                            <i class="fas fa-briefcase fa-2x icon-style rounded-circle"></i>
+                            <h5 class="font-weight-bolder text-warning">Skills</h5>
+                            <table>
+                                <tr>
+                                    <td>HTML</td>
+                                    <td>
+                                        <span class="star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>CSS</td>
+                                    <td>
+                                        <span class="star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half"></i>
+                                        </span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>BOOTSTRAP</td>
+                                    <td>
+                                        <span class="star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>JABASCRIPT</td>
+                                    <td>
+                                        <span class="star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>REACTJS</td>
+                                    <td>
+                                        <span class="star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star-half"></i>
+                                        </span>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- working with tutorial card -->
+            <section id="tutorials">
+                <div class="title-section">
+                    <h3 class="text-center">Tutorials</h3>
+                    <hr>
+                    <!-- <hr class="hr-style" style="border-color: black;"> -->
+                </div>
+                <div class="row text-center mb-5">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card mb-5 mb-lg-0">
+                            <img class="card-img-top" src="images/book.jpg" alt="pic">
+                            <div class="card-body text-center">
+                                <h3 class="card-title font-weight-bolder">HSC ICT</h3>
+                                <a href="#" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card mb-5 mb-lg-0">
+                            <img class="card-img-top" src="images/book.jpg" alt="pic">
+                            <div class="card-body text-center">
+                                <h3 class="card-title font-weight-bolder">HSC ICT</h3>
+                                <a href="#" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card mb-5 mb-lg-0">
+                            <img class="card-img-top" src="images/book.jpg" alt="pic">
+                            <div class="card-body text-center">
+                                <h3 class="card-title font-weight-bolder">HSC ICT</h3>
+                                <a href="#" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card mb-5 mb-lg-0">
+                            <img class="card-img-top" src="images/book.jpg" alt="pic">
+                            <div class="card-body text-center">
+                                <h3 class="card-title font-weight-bolder">HSC ICT</h3>
+                                <a href="#" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center mb-5">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card mb-5 mb-lg-0">
+                            <img class="card-img-top" src="images/book.jpg" alt="pic">
+                            <div class="card-body text-center">
+                                <h3 class="card-title font-weight-bolder">HSC ICT</h3>
+                                <a href="#" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card mb-5 mb-lg-0">
+                            <img class="card-img-top" src="images/book.jpg" alt="pic">
+                            <div class="card-body text-center">
+                                <h3 class="card-title font-weight-bolder">HSC ICT</h3>
+                                <a href="#" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card mb-5 mb-lg-0">
+                            <img class="card-img-top" src="images/book.jpg" alt="pic">
+                            <div class="card-body text-center">
+                                <h3 class="card-title font-weight-bolder">HSC ICT</h3>
+                                <a href="#" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card mb-5 mb-lg-0">
+                            <img class="card-img-top" src="images/book.jpg" alt="pic">
+                            <div class="card-body text-center">
+                                <h3 class="card-title font-weight-bolder">HSC ICT</h3>
+                                <a href="#" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- working with feedback -->
+            <section id="feedback">
+                <div class="title-section">
+                    <h3 class="text-center">Feedback</h3>
+                    <hr>
+                    <!-- <hr class="hr-style" style="border-color: black;"> -->
+                </div>
+                <div class="row"> 
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner text-center">
+                          <div class="carousel-item active">
+                            <p>1.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem dolor incidunt molestiae at. Beatae repellendus quos molestiae magnam! Similique inventore illo laudantium quo unde maiores atque ratione ipsa aliquam voluptatibus!</p>
+                            <img class="rounded-circle feedback-img" src="images/01764-780088.JPG" class="d-block w-100" alt="pic">
+                            <h6>TiPuSuLtAn</h6>
+                          </div>
+                          <div class="carousel-item">
+                            <p>2.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem dolor incidunt molestiae at. Beatae repellendus quos molestiae magnam! Similique inventore illo laudantium quo unde maiores atque ratione ipsa aliquam voluptatibus!</p>
+                            <img class="rounded-circle feedback-img" src="images/IMG_20201023_110557.jpg" class="d-block w-100" alt="pic">
+                            <h6>TiPuSuLtAn</h6>
+                          </div>
+                          <div class="carousel-item">
+                            <p>3.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem dolor incidunt molestiae at. Beatae repellendus quos molestiae magnam! Similique inventore illo laudantium quo unde maiores atque ratione ipsa aliquam voluptatibus!</p>
+                            <img class="rounded-circle feedback-img" src="images/IMG_20201023_083051.jpg" class="d-block w-100" alt="pic">
+                            <h6>TiPuSuLtAn</h6>
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </a>
+                      </div>
+                </div>
+            </section>
+            <!-- working with contact -->
+            <section id="contact">
+                <div class="title-section">
+                    <h3 class="text-center">Contact</h3>
+                    <hr>
+                    <!-- <hr class="hr-style" style="border-color: black;"> -->
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <form action="mailto:bdsoldire@gmail.com" method="POST" enctype="text/plain" class="was-validated">
+                            <div class="form-group mb-2">
+                                <label for="fullname">Full Name:</label>
+                                <input type="text" class="form-control" name="fullname" required>
+                                <div class="valid-feedback">Valid</div>
+                                <div class="invalid-feedback">Please Enter Full Name</div>
+                            </div>
+                            <div class="form-group mb-2">
+                                <label for="email">Email:</label>
+                                <input type="email" class="form-control" name="email" required>
+                                <div class="valid-feedback">Valid</div>
+                                <div class="invalid-feedback">Please Enter Email</div>
+                            </div>
+                            <div class="form-group mb-2">
+                                <label for="password">Password:</label>
+                                <input type="password" class="form-control" name="password" required>
+                                <div class="valid-feedback">Valid</div>
+                                <div class="invalid-feedback">Please Enter Password</div>
+                            </div>
+                            <div class="form-group mb-2">
+                                <label for="message">Feedback:</label>
+                                <textarea class="form-control" style="resize: none;" name="message" id="" cols="30" rows="5">Type Message Here</textarea>
+                            </div>
+                            <div class="form-group text-center mb-2">
+                                <input type="submit" class="btn btn-primary m-3" value="Submit">
+                                <input type="reset" class="btn btn-danger" value="Reset">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- working with footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-6 text-center text-lg-left mb-3 mb-lg-0">
+                    <p class="small mb-0 mt-1">2021 developed by &copy;battler</p>
+                </div>
+                <div class="col-lg-6 text-center text-lg-right request-callback">
+                    <a href="#">Home</a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>                  
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script> -->
+</body>
+</html>
